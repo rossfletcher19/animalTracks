@@ -9,7 +9,13 @@ h1 {
   color: red;
 }
 
+.jumbotron {
+  margin-top: 25px;
+  background-image: url('/resources/img/tracks2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .animalDiv {
-  /*margin: 20px;*/
-  /*padding: 50px;*/
+
 }

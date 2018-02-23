@@ -5,8 +5,10 @@ import { Animal } from './animal.model';
   selector: 'app-root',
   template: `
     <div class="container">
-      <h1>animalTracks</h1>
-      <h3>Curren Date is {{month}}/{{day}}/{{year}}</h3>
+      <div class="jumbotron">
+        <h1>animalTracks</h1>
+        <h5>Curren Date is {{month}}/{{day}}/{{year}}</h5>
+      </div>
       <hr>
       <div class="animalDiv">
         <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
@@ -15,8 +17,6 @@ import { Animal } from './animal.model';
       <edit-animal [childSelectedAnimal]="selectedAnimal" (doneButtonClickedSender)="finishedEditing()"></edit-animal>
       <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
       <hr>
-
-
     </div>
   `
 })

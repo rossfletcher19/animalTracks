@@ -14,20 +14,21 @@ import { Animal } from './animal.model';
           <h5>Zoo Location: {{childSelectedAnimal.zooLocation}}</h5>
           <h5>Edit:</h5>
           <label>Name:</label>
-          <input [(ngModel)]="childSelectedAnimal.name"><br>
+          <input class="form-control form-control-sm" placeholder="Name" [(ngModel)]="childSelectedAnimal.name"><br>
           <label>Age:</label>
-          <input [(ngModel)]="childSelectedAnimal.age"><br>
+          <input class="form-control form-control-sm" placeholder="Age" [(ngModel)]="childSelectedAnimal.age"><br>
           <label># of Caretakers:</label>
-          <input [(ngModel)]="childSelectedAnimal.numberOfCaretakers"><br>
+          <input class="form-control form-control-sm" placeholder="# of Caretakers" [(ngModel)]="childSelectedAnimal.numberOfCaretakers"><br>
           <label>Zoo Location:</label>
-          <input [(ngModel)]="childSelectedAnimal.zooLocation"><br>
+          <input class="form-control form-control-sm" placeholder="Zoo Location" [(ngModel)]="childSelectedAnimal.zooLocation"><br>
           <label>Likes:</label>
-          <input [(ngModel)]="childSelectedAnimal.likes"><br>
+          <input class="form-control form-control-sm" placeholder="Likes" [(ngModel)]="childSelectedAnimal.likes"><br>
           <label>Dislikes:</label>
-          <input [(ngModel)]="childSelectedAnimal.dislikes"><br>
-          <button (click)="doneButtonClicked()">Done</button>
+          <input class="form-control form-control-sm" placeholder="Dislikes" [(ngModel)]="childSelectedAnimal.dislikes"><br>
+          <button class="btn btn-success"(click)="doneButtonClicked()">Submit</button>
           </div>
        </div>
+       <hr>
   `
 })
 

@@ -7,9 +7,9 @@ import { Animal } from './animal.model';
       <h3>Our Current Residents</h3>
 
       <select (change)="onChange($event.target.value)">
-        <option value="allAnimals">All Animals</option>
+        <option value="allAnimals" selected="selected">All Animals</option>
         <option value="animals2AndOlder">Animals 2 years and older</option>
-        <option value="animalsYoungerThan2" selected="selected">Animals Younger Than 2 years</option>
+        <option value="animalsYoungerThan2" >Animals Younger Than 2 years</option>
       </select>
 
       <ul>
@@ -31,7 +31,7 @@ import { Animal } from './animal.model';
 export class AnimalListComponent {
   @Input() childAnimalList: Animal[];
   @Output() clickSender = new EventEmitter();
-  filterByAnimalAge: string = "animalsYoungerThan2";
+  filterByAnimalAge: string = "allAnimals";
 
   editButtonHasBeenClicked(animalToEdit: Animal) {
     this.clickSender.emit(animalToEdit);

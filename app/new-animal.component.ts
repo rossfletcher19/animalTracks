@@ -4,28 +4,17 @@ import { Animal } from './animal.model';
 @Component({
   selector: 'new-animal',
   template: `
-    <h1>New Animal</h1>
-    <div>
-     <label>Name:</label>
-     <input #newName><br>
-     <label>Species:</label>
-     <input #newSpecies><br>
-     <label>Age:</label>
-     <input #newAge><br>
-     <label>Diet:</label>
-     <input #newDiet><br>
-     <label>Zoo Location:</label>
-     <input #newZooLocation><br>
-     <label># of Caretakers:</label>
-     <input #newNumberOfCaretakers><br>
-     <label>Sex:</label>
-     <input #newSex><br>
-     <label>Likes:</label>
-     <input #newLikes><br>
-     <label>Dislikes:</label>
-     <input #newDislikes><br>
-     <button (click)="submitForm(newName.value, newSpecies.value, newAge.value, newDiet.value, newZooLocation.value, newNumberOfCaretakers.value, newSex.value, newLikes.value, newDislikes.value); newName.value=''; newSpecies.value=''; newAge.value=''; newDiet.value=''; newZooLocation.value=''; newNumberOfCaretakers.value=''; newSex.value=''; newLikes.value=''; newDislikes.value=''">Add</button>
-   </div>
+    <h3>New Animal</h3>
+         <input class="form-control form-control-sm" placeholder="Name" #newName><br>
+         <input class="form-control form-control-sm" placeholder="Species" #newSpecies><br>
+         <input class="form-control form-control-sm" placeholder="Age" #newAge><br>
+         <input class="form-control form-control-sm" placeholder="Diet" #newDiet><br>
+         <input class="form-control form-control-sm" placeholder="Zoo Location" #newZooLocation><br>
+         <input class="form-control form-control-sm" placeholder="# of Caretakers" #newNumberOfCaretakers><br>
+         <input class="form-control form-control-sm" placeholder="Sex" #newSex><br>
+         <input class="form-control form-control-sm" placeholder="Likes" #newLikes><br>
+         <input class="form-control form-control-sm" placeholder="Dislikes"#newDislikes><br>
+         <button class="btn btn-success" (click)="submitForm(newName.value, newSpecies.value, newAge.value, newDiet.value, newZooLocation.value, newNumberOfCaretakers.value, newSex.value, newLikes.value, newDislikes.value); newName.value=''; newSpecies.value=''; newAge.value=''; newDiet.value=''; newZooLocation.value=''; newNumberOfCaretakers.value=''; newSex.value=''; newLikes.value=''; newDislikes.value=''">Add</button>
   `
 })
 
