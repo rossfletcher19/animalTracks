@@ -1,0 +1,15 @@
+ul {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+  overflow: auto;
+}
+
+h1 {
+  color: red;
+}
+
+.animalDiv {
+  /*margin: 20px;*/
+  /*padding: 50px;*/
+}
