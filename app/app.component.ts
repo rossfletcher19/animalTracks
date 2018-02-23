@@ -11,20 +11,7 @@ import { Animal } from './animal.model';
         <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
      </div>
      <hr>
-        <div>
-          <div *ngIf="selectedAnimal">
-          <h3>Edit Animal</h3>
-          <h5>Name: {{selectedAnimal.name}}</h5>
-          <h5>Species: {{selectedAnimal.species}}</h5>
-          <label>Enter Animal Name:</label>
-          <input [(ngModel)]="selectedAnimal.name">
-          <label>Enter Animal Age:</label>
-          <input [(ngModel)]="selectedAnimal.age">
-          <label>Enter Animal Caretakers:</label>
-          <input [(ngModel)]="selectedAnimal.numberOfCaretakers">
-          <button (click)="finishedEditing()">Done</button>
-          </div>
-       </div>
+      <edit-animal [childSelectedAnimal]="selectedAnimal" (doneButtonClickedSender)="finishedEditing()"></edit-animal>
 
     </div>
   `

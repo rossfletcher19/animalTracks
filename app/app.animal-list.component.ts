@@ -26,5 +26,4 @@ export class AnimalListComponent {
   editButtonHasBeenClicked(animalToEdit: Animal) {
     this.clickSender.emit(animalToEdit);
   }
-
 }
