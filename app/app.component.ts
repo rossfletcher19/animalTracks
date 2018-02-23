@@ -7,12 +7,15 @@ import { Animal } from './animal.model';
     <div class="container">
       <h1>animalTracks</h1>
       <h3>Curren Date is {{month}}/{{day}}/{{year}}</h3>
-      <div class="animalDiv">
-        <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
-     </div>
-     <hr>
+      <hr>
       <edit-animal [childSelectedAnimal]="selectedAnimal" (doneButtonClickedSender)="finishedEditing()"></edit-animal>
       <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
+      <hr>
+      <div class="animalDiv">
+        <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
+      </div>
+     <hr>
+
 
     </div>
   `
