@@ -1,0 +1,20 @@
+{
+  "name": "angular-zoo",
+  "description": "an app for tracking zoo animals",
+  "main": "index.js",
+  "authors": [
+    "Ross Fletcher"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
