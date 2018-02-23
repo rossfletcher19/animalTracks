@@ -12,6 +12,7 @@ import { Animal } from './animal.model';
      </div>
      <hr>
       <edit-animal [childSelectedAnimal]="selectedAnimal" (doneButtonClickedSender)="finishedEditing()"></edit-animal>
+      <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
 
     </div>
   `
@@ -37,5 +38,9 @@ editAnimal(clickedAnimal) {
 finishedEditing() {
   this.selectedAnimal = null;
 }
+
+addAnimal(newAnimalFromChild: Animal) {
+    this.masterAnimalList.push(newAnimalFromChild);
+  }
 
 }

@@ -19,6 +19,7 @@ import { Animal } from './animal.model';
   `
 })
 
+
 export class AnimalListComponent {
   @Input() childAnimalList: Animal[];
   @Output() clickSender = new EventEmitter();
