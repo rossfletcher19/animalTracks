@@ -31,7 +31,8 @@ export class AppComponent {
   masterAnimalList: Animal[] = [
     new Animal("Moon", "Artic Fox", 2, "Carnivore", "Northern Trail", "5", "F", "Cool Shade", "Loud Noises"),
     new Animal("Prince", "Ocelot", 4, "Carnivore", "Tropical Rain Forest Building", "6", "M", "Laying in the sunshine", "Toys that are not rope based"),
-    new Animal("TinkerBell", "Northwest Black Tailed Deer", 8, "Herbivore", "Northern Trail", "2", "F", "Delicate Roots and Leaves", "Loud Noises")
+    new Animal("TinkerBell", "Northwest Black Tailed Deer", 8, "Herbivore", "Northern Trail", "2", "F", "Delicate Roots and Leaves", "Loud Noises"),
+    new Animal("Bell", "Northwest Black Tailed Fox", 1, "Carnivore", "Northern Trail", "2", "F", "Digging Holes", "Clever Mice")
 ];
 
 editAnimal(clickedAnimal) {

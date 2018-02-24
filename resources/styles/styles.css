@@ -2,7 +2,7 @@ ul {
   columns: 3;
   -webkit-columns: 3;
   -moz-columns: 3;
-  overflow: auto;
+  overflow: hidden;
 }
 
 h1 {
@@ -18,4 +18,12 @@ h1 {
 
 .animalDiv {
 
+}
+
+.list {
+  text-align: left;
+  float: left;
+  margin: 1%;
+  width: 23%;
+  height: 150px;
 }
