@@ -10,11 +10,10 @@
 
 | Behavior  | input  | output  |
 |---|---|---|
-| Users (zoo staff), should be able to add newly-admitted animals to the app.  |   |   |
-| I want to log a newly-admitted animal by submitting a form with animal species, name, age, diet, zoo location, number of needed caretakers, sex, one like and one dislike.  |   |   |
-| I want to view a list of animals I have logged.  |   |   |
-| I want options to view all animals, only young animals (less than 2 years of age), or only mature animals (2 years of age and older).  | I want to click an animal to edit its name, age or caretakers.  |   |
-|   |   |   |
+| I want to log a newly-admitted animal by submitting a form with animal species, name, age, diet, zoo location, number of needed caretakers, sex, one like and one dislike.  | Add New Animal  | Created Instance of Animal with assigned properties  |
+| I want to view a list of animals I have logged.  | View All Animals  | Shows List of all animals  |
+| I want options to view all animals, only young animals (less than 2 years of age), or only mature animals (2 years of age and older).  | View Animals < 2 or View Animals >= 2   | List of animals < 2 years of age OR List of animals >= 2 years of age  |
+| I want to click an animal to edit its name, age or caretakers.  | Click edit button  | Show form to edit animal properties  |
 |   |   |   |
 
 
@@ -56,7 +55,7 @@
 
 
 * Clone this repo. <br/>
-`$ git clone `
+`$ git clone https://github.com/rossfletcher19/animalTracks.git`
 * in the cloned repo run the following command from your terminal: <br/>
 `$ npm install && bower install`
 * run build with:
