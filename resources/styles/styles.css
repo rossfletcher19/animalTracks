@@ -1,12 +1,5 @@
-ul {
-  columns: 3;
-  -webkit-columns: 3;
-  -moz-columns: 3;
-  overflow: hidden;
-}
-
 h1 {
-  color: red;
+  color: #bc9236;
 }
 
 .jumbotron {
@@ -17,7 +10,7 @@ h1 {
 }
 
 .animalDiv {
-
+  width: 1000px;
 }
 
 .list {
@@ -26,4 +19,14 @@ h1 {
   margin: 1%;
   width: 23%;
   height: 150px;
+}
+
+nav ul {
+  height:400px;
+  width:100%;
+}
+
+nav ul {
+  overflow:hidden;
+  overflow-y:scroll;
 }
