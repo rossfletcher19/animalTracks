@@ -16,6 +16,8 @@
 | I want to click an animal to edit its name, age or caretakers.  | Click edit button  | Show form to edit animal properties  |
 |   |   |   |
 
+## _animalTracks_
+![home-screen](https://github.com/rossfletcher19/animalTracks/blob/master/resources/img/animalTracksSs.jpg)
 
 ## Further Exploration
 
