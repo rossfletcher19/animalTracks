@@ -2,7 +2,9 @@
 
 #### _A simple app to track all our lovely animals._
 
-#### By _**Ross Fletcher**_
+#### _**By Ross Fletcher**_
+
+#### [Checkout the project live.](https://animaltracks-e3fe9.firebaseapp.com/ "animalTracks")
 
 ![home-screen](https://github.com/rossfletcher19/animalTracks/blob/master/resources/img/animalTracksSs.jpg)
 
