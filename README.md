@@ -63,11 +63,9 @@
 * Clone this repo. <br/>
 `$ git clone https://github.com/rossfletcher19/animalTracks.git`
 * in the cloned repo run the following command from your terminal: <br/>
-`$ npm install && bower install`
+`npm install`
 * run build with:
-`gulp build`
-* Serve a production version of the web app by running this gulp task: <br/>
-`gulp serve --prod`
+`npm start`
 
 ## Known Bugs
 
